@@ -1,0 +1,37 @@
+body {
+  background: rgb(78, 158, 221);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 214, 205, 1) 17%,
+    rgba(78, 158, 221, 1) 47%
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #ffffff;
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+}
+
+.todos li {
+  background: rgb(40, 127, 194);
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
